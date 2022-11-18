@@ -214,3 +214,50 @@ footer {
         flex-direction: row;
       }
     }
+
+    /*ABOUT PAGE*/
+ 
+.header-imgs {
+    margin-top: .5em;
+    margin-left: 10%;
+    justify-content: center;
+    align-items: stretch;
+    display: inline-flex;
+}
+ 
+ 
+.abt_img {
+    border: 2px dotted red;
+    height: 294px;
+    width: 310px;
+    display: inline-flex;
+    align-items:center;
+    margin-top: 32px;
+    margin-right: 2em;
+}
+ 
+#title {
+    text-align: center;
+    font-size: 3em;
+    margin-top: .5em;
+    letter-spacing: .1em;
+}
+ 
+.history {
+    border: 5px dotted blue;
+    display:inline-flex;
+    width: 90%;
+    height: 350px;
+    margin-top: 2em;
+    margin-left: 3.5em;
+}
+ 
+ 
+ .history p {
+    border: 5px dotted black;
+    width: 65%;
+    height: auto;
+    align-items: flex-end;
+   
+}
+ 
