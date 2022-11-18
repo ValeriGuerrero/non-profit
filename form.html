@@ -22,12 +22,14 @@
     </header>
     <!--Introduction section-->
     <div id="intro">
-        <h1></h1>
-        <p></p>
+        <h1>Organization Support Promise</h1>
+        <p>Please fill out this form to agree to spend some time learning about a trusted organization of your choosing. Careful research was done for each organization to ensure
+            that they are committed to their cause.
+        </p>
     </div>
     <!--Client Form-->
     <div>
-    <form id="quiz_form">
+    <form id="form">
         <div>
             <label for="name">First Name:</label>
                 <input type="text" name="name" id="name" placeholder="First Name" required>
@@ -36,43 +38,14 @@
                 <label for="email">Email:</label>
                 <input type="email" name="email" id="email" placeholder="Email" required>
             </div>
-
-        <!--Questions-->
-        <div>
-            <h2>What Organizations Should You Look Into? </h2>
-
             <div>
-                <h3>Which term or phrase identifies a portion of a string?</h3>
-             <!--  <label for=""></label>-->
-                    <select name="" id="">
+              <label for="orglist">Which organization do you want to support?</label>
+                    <select name="org" id="org" required>
                         <option value=""></option>
                         <option value=""></option>
                         <option value=""></option>
                     </select>
-                <h3>Which term or phrase allows you to store values to be used later in the code?</h3>
-                    <select name="" id="">
-                        <option value=""></option>
-                        <option value=""></option>
-                        <option value=""></option>
-                    </select>
-                <h3>Which term or phrase allows you to store values to be used later in the code?</h3>
-                    <select name="" id="">
-                        <option value=""></option>
-                        <option value=""></option>
-                        <option value=""></option>
-                    </select>
-                <h3>Which term or phrase allows you to store values to be used later in the code?</h3>
-                    <select name="" id="">
-                        <option value=""></option>
-                        <option value=""></option>
-                        <option value=""></option>
-                    </select>
-                <h3>Which term or phrase allows you to store values to be used later in the code?</h3>
-                    <select name="" id="">
-                        <option value=""></option>
-                        <option value=""></option>
-                        <option value=""></option>
-                    </select>
+
             </div>
         </div>
             <div>
@@ -80,10 +53,6 @@
             </div>
 
         </form>
-    </div>
-    <div>
-        <p>Here is a list of organizations that you should consider supporting: <span id="orglist">__</span></p>
-        <p id="animal_org"></p>
     </div>
 
 </body>
