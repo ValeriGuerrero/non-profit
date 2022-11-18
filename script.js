@@ -1,6 +1,4 @@
 //form
-const name = document.getElementById()
-//dog results form validation
-const dogResultsList = document.getElementById('dog_results')
-
-//cat results form validation
+const quizContainer = document.getElementById('quiz_form');
+const resultsContainer = document.getElementById('results');
+const submitButton = document.getElementById('submit');
