@@ -17,7 +17,7 @@ HOME PAGE
 
 /*nav bar*/
 .logo {
-    margin: 13px 25px;
+    margin: -100px -55px 5px 23px;
     width: 100px;
     height:100px;
     border-radius: 5px;
@@ -27,16 +27,21 @@ HOME PAGE
 }
 .navbar ul{
     width: 100%;  
-    height: 60px; 
+    height: 100px; 
     background-color:cadetblue; 
     padding: 19px;
     text-align: center;
     
+    
+}
+
+.navbar {
+    position: relative;
 }
 
 li {
     display: inline-block;
-    padding: 0px 20px;
+    padding: 20px 20px;
 }
 
 a{
@@ -218,7 +223,7 @@ footer {
     /*ABOUT PAGE*/
  
 .header-imgs {
-    margin-top: .5em;
+    margin-top: .2em;
     margin-left: 10%;
     justify-content: center;
     align-items: stretch;
@@ -227,7 +232,6 @@ footer {
  
  
 .abt_img {
-    border: 2px dotted red;
     height: 294px;
     width: 310px;
     display: inline-flex;
@@ -235,6 +239,15 @@ footer {
     margin-top: 32px;
     margin-right: 2em;
 }
+
+.sanctuary img {
+    height: 294px;
+    width: 310px;
+    display: inline-flex;
+    align-items:center;
+    margin: 32px -1.1px;
+}
+
  
 #title {
     text-align: center;
@@ -244,7 +257,14 @@ footer {
 }
  
 .history {
-    border: 5px dotted blue;
+    display:inline-flex;
+    width: 90%;
+    height: 350px;
+    margin-top: 2em;
+    margin-left: 3.5em;
+}
+
+.sanctuary {
     display:inline-flex;
     width: 90%;
     height: 350px;
@@ -254,10 +274,19 @@ footer {
  
  
  .history p {
-    border: 5px dotted black;
     width: 65%;
     height: auto;
     align-items: flex-end;
    
+}
+
+.sanctuary p {
+    width: 65%;
+    height: auto;
+    align-items: flex-end;
+    display: inline-flex;
+    
+    margin-left: 2em;
+
 }
  
