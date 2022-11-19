@@ -246,6 +246,7 @@ footer {
     display: inline-flex;
     align-items:center;
     margin: 32px -1.1px;
+    box-shadow: 5px 6px 20px #0000006d;
 }
 
  
@@ -277,6 +278,7 @@ footer {
     width: 65%;
     height: auto;
     align-items: flex-end;
+    overflow: hidden;
    
 }
 
@@ -285,8 +287,10 @@ footer {
     height: auto;
     align-items: flex-end;
     display: inline-flex;
-    
     margin-left: 2em;
+    margin-bottom: 2em;
+    overflow: hidden;
+    justify-content: center;
 
 }
  
