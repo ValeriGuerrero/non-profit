@@ -245,8 +245,7 @@ footer {
     width: 310px;
     display: inline-flex;
     align-items:center;
-    margin: 32px 63px;
-    display: inline-flex;
+    margin: 32px -1.1px;
 }
 
  
@@ -258,7 +257,14 @@ footer {
 }
  
 .history {
-    border: 5px dotted blue;
+    display:inline-flex;
+    width: 90%;
+    height: 350px;
+    margin-top: 2em;
+    margin-left: 3.5em;
+}
+
+.sanctuary {
     display:inline-flex;
     width: 90%;
     height: 350px;
@@ -268,10 +274,19 @@ footer {
  
  
  .history p {
-    border: 5px dotted black;
     width: 65%;
     height: auto;
     align-items: flex-end;
    
+}
+
+.sanctuary p {
+    width: 65%;
+    height: auto;
+    align-items: flex-end;
+    display: inline-flex;
+    
+    margin-left: 2em;
+
 }
  
