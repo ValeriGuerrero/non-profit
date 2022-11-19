@@ -22,57 +22,57 @@
     </header>
     <!--Introduction section-->
     <div id="intro">
-        <h1></h1>
-        <p></p>
+        <h1>Organization Support Promise</h1>
+        <p>Please fill out this form to agree to spend some time learning about a trusted organization of your choosing. Careful research was done for each organization to ensure
+            that they are committed to their cause.
+        </p>
     </div>
     <!--Client Form-->
     <div>
-    <form action="results.html" method="get">
-        <div>
-            <label for="name">First Name:</label>
+    <form id="form" onsubmit="thankYou()">
+            <div>
+                <label for="name">First Name:</label>
                 <input type="text" name="name" id="name" placeholder="First Name" required>
             </div>
             <div>
                 <label for="email">Email:</label>
                 <input type="email" name="email" id="email" placeholder="Email" required>
             </div>
+            <div>
+              <label for="orglist">Which organization do you want to support?</label>
+                    <select name="org" id="org" required>
+                        <optgroup label="For All Animals">
+                            <option value="AWI" selected>Animal Welfare Institute</option>
+                        </optgroup>
+                        <optgroup label="For Pets">
+                            <option value="BFAS">Best Friends Animal Society</option>
+                            <option value="BWAR">Brother Wolf Animal Rescue</option>
+                            <option value="MH">Mountain Humane</option>
+                        </optgroup>
+                        <optgroup label="For Ocean Animals">
+                            <option value="Oceana">Oceana</option>
+                            <option value="BMF">Blue Marine Foundation</option>
+                            <option value="SF">Surfrider Foundation </option>
+                        </optgroup>
+                        <optgroup label="For Wild Animals">
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                        </optgroup>
+                    </select>
+            </div>
+            <div>
+                <label for="time">How much time do you want to spend learning today?</label>
+            </div>
+            <div>
+                <button type="submit" value="submit" id="submit">Submit</button>
+            </div>
 
-        <!--Questions-->
-            <div>
-                <label for=""></label>
-                <select name="" id="">
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                </select>
-                <select name="" id="">
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                </select>
-                <select name="" id="">
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                </select>
-                <select name="" id="">
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                </select>
-                <select name="" id="">
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                </select>
-            </div>
-            <div>
-                <button type="submit">Submit</button>
-            </div>
-            <div></div>
         </form>
     </div>
-
-
+    <div id="thank_you" style="display: none;">
+        <p>Thanks for filling up the form!</p>
+        <button type="submit">Close</button>
+      </div>
 </body>
 </html>
