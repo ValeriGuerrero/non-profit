@@ -17,12 +17,12 @@ HOME PAGE
 
 /*nav bar*/
 .logo {
-    margin: -100px -45px 5px 23px;
+    margin: -100px -55px 5px 23px;
     width: 100px;
     height:100px;
     border-radius: 5px;
     padding: 0;
-    position: absolute;
+    position: static;
 
 }
 .navbar ul{
