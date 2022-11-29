@@ -85,5 +85,4 @@ form.addEventListener('submit', function(event) {
     // console.log(checkEmail(email));
 
 }
-
-});
+);
