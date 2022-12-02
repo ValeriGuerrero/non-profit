@@ -294,3 +294,24 @@ footer {
 
 }
  
+/*Contact Page*/
+
+#contact {
+    display:inline-flex;
+    border: .75px inset #011f11;
+    border-radius: 3px;
+}
+
+.socials {
+    position: relative;
+    display: inline-block;
+    margin: 20px 30px;
+    height: 100px;
+    width: 150px;
+}
+
+.socials:hover {
+    background: #C0D6DF;
+    color: #FFF;
+  }
+
