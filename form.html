@@ -1,78 +1,78 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Form Validator</title>
+  </head>
+  <body id="form-page">
     <header>
-
-    <!--navigation bar-->
-    <nav class="navbar">
-        <ul class="link-bar">
-            <li><a href="./index.html"tabindex="1" >Home</a></li>
-            <li><a href="./about.html"tabindex="1">About</a></li>
-            <li><a href="./form.html"tabindex="1">Form</a></li>
-            <li><a href="./contact.html"tabindex="1">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <!--Introduction section-->
-    <div id="intro">
-        <h1>Organization Support Promise</h1>
-        <p>Please fill out this form to agree to spend some time learning about a trusted organization of your choosing. Careful research was done for each organization to ensure
-            that they are committed to their cause.
-        </p>
+        <!--navigation bar-->
+        <nav class="navbar">
+            <ul class="link-bar">
+                <li><a href="./index.html"tabindex="1" >Home</a></li>
+                <li><a href="./about.html"tabindex="1">About</a></li>
+                <li><a href="./form.html"tabindex="1">Form</a></li>
+                <li><a href="./contact.html"tabindex="1">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+        <!--Introduction section-->
+        <div id="intro" class="form_container">
+            <h1>Organization Support Promise</h1>
+            <p>Please fill out this form to agree to spend some time learning about a trusted organization of your choosing. Careful research was done for each organization to ensure
+                that they are committed to their cause.
+            </p>
+        </div>
+    <div class="form_container">
+      <form id="form" class="form">
+        <h2>Please fill out all fields:</h2>
+        <div class="form-control">
+          <label for="username">First Name</label>
+          <input type="text" id="username" placeholder="Enter your first name" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="Enter email" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label for="orglist">Which organization do you want to support?</label>
+            <select name="org" id="org" required>
+                <optgroup label="For All Animals">
+                    <option value="AWI" selected>Animal Welfare Institute</option>
+                </optgroup>
+                <optgroup label="For Pets">
+                    <option value="BFAS">Best Friends Animal Society</option>
+                    <option value="BWAR">Brother Wolf Animal Rescue</option>
+                    <option value="MH">Mountain Humane</option>
+                </optgroup>
+                <optgroup label="For Ocean Animals">
+                    <option value="Oceana">Oceana</option>
+                    <option value="BMF">Blue Marine Foundation</option>
+                    <option value="SF">Surfrider Foundation </option>
+                </optgroup>
+                <optgroup label="For Endangered Animals">
+                    <option value="DW">Defenders of Wildlife</option>
+                    <option value="GD">Gorilla Doctors</option>
+                    <option value="SE">Save the Elephants</option>
+                </optgroup>
+            </select>
+            <small>Error message</small>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
     </div>
-    <!--Client Form-->
-    <div>
-    <form id="form" onsubmit="thankYou()">
-            <div>
-                <label for="username">First Name:</label>
-                <input type="text" name="username" id="username" placeholder="First Name">
-            </div>
-            <div>
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email" placeholder="Email">
-            </div>
-            <div>
-              <label for="orglist">Which organization do you want to support?</label>
-                    <select name="org" id="org" required>
-                        <optgroup label="For All Animals">
-                            <option value="AWI" selected>Animal Welfare Institute</option>
-                        </optgroup>
-                        <optgroup label="For Pets">
-                            <option value="BFAS">Best Friends Animal Society</option>
-                            <option value="BWAR">Brother Wolf Animal Rescue</option>
-                            <option value="MH">Mountain Humane</option>
-                        </optgroup>
-                        <optgroup label="For Ocean Animals">
-                            <option value="Oceana">Oceana</option>
-                            <option value="BMF">Blue Marine Foundation</option>
-                            <option value="SF">Surfrider Foundation </option>
-                        </optgroup>
-                        <optgroup label="For Wild Animals">
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-                        </optgroup>
-                    </select>
-            </div>
-            <div>
-                <label for="time">How much time do you want to spend learning today?</label>
-            </div>
-            <div>
-                <button type="submit" value="submit" id="submit">Submit</button>
-            </div>
-
-        </form>
-    </div>
-    <div id="thank_you" style="display: none;">
-        <p>Thanks for filling out the form!</p>
-        <button type="submit">Close</button>
-      </div>
-</body>
+    <footer id="form-footer">
+        <p class="footer"> @ 2022 </p>
+        <P class="footer"> A non-profit organization</P>
+        <p class="footer">Group Project Created By: </p>
+      </footer>
+    <script src="./script.js"></script>
+  </body>
+   
 </html>

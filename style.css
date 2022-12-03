@@ -9,7 +9,7 @@ body , html{
     overflow-x: hidden; /*hidden scroll bar left-right*/
     background-color: whitesmoke;
 }
-/****** 
+/******
 
 HOME PAGE
 
@@ -37,6 +37,7 @@ HOME PAGE
 
 .navbar {
     position: relative;
+
 }
 
 li {
@@ -94,7 +95,7 @@ a{
 .container .box{
     position: relative;
     width: calc(250px - 30px);
-    height: calc(250px - 30px); 
+    height: calc(250px - 30px);
     float: left;
     margin: 15px;
     box-sizing: border-box;
@@ -104,7 +105,7 @@ a{
     display: block;
     margin-left: 95px;
     margin-right: auto;
-    
+
 }
 
 .container .box .content{
@@ -121,21 +122,21 @@ a{
 }
 
 /* Footer */
-footer { 
-    height:120px; 
+footer {
+    height:120px;
     background-color:cadetblue;
-    text-align:center; 
+    text-align:center;
     font-size: smaller;
     padding: 0%;
     margin: 0%;
-    } 
+    }
     .footer {
         padding: 10px 10px;
         color: white;
         font-size: small;
     }
 
-    
+
 
 
 @media only screen and (max-width: 1200px) {
@@ -150,44 +151,44 @@ footer {
         margin-bottom: 100px;
         text-align: center;
     }
-    
+
     .top-container h1{
         font-size: 5vmin;
         margin-top:35px;
         margin-bottom: 25px;
     }
-    
+
     .top-container h2{
         font-size:3vmin;
         font-style: italic;
     }
-    
+
     /*pictures*/
-    
+
     .dogs{
         height: 300px;
         width: 300px;
         display: inline;
-        
+
     }
     #topics{
         padding: 80px;
         text-align: center;
     }
-    
+
     .container{
         position:relative;
         width: 1200px;
         height: 300px;
         font-size: 12px;
         text-align: center;
-        
+
     }
-    
+
     .container .box{
         position: relative;
         width: calc(250px - 30px);
-        height: calc(250px - 30px); 
+        height: calc(250px - 30px);
         float: left;
         margin: 15px;
         box-sizing: border-box;
@@ -195,17 +196,17 @@ footer {
         border-radius: 10px;
         background-color: white;
         display: block;
-        
-        
+
+
     }
-    
+
     .container .box .content{
         position: absolute;
         top: 0;
         left: 0;
-    
+
     }
-    
+
     .pics{
         height: 100px;
         width: 150px;
@@ -221,7 +222,7 @@ footer {
     }
 
     /*ABOUT PAGE*/
- 
+
 .header-imgs {
     margin-top: .2em;
     margin-left: 10%;
@@ -229,8 +230,8 @@ footer {
     align-items: stretch;
     display: inline-flex;
 }
- 
- 
+
+
 .abt_img {
     height: 294px;
     width: 310px;
@@ -239,6 +240,7 @@ footer {
     margin-top: 32px;
     margin-right: 2em;
 }
+
 
 .sanctuary img {
     height: 294px;
@@ -249,14 +251,13 @@ footer {
     box-shadow: 5px 6px 20px #0000006d;
 }
 
- 
 #title {
     text-align: center;
     font-size: 3em;
     margin-top: .5em;
     letter-spacing: .1em;
 }
- 
+
 .history {
     display:inline-flex;
     width: 90%;
@@ -272,12 +273,17 @@ footer {
     margin-top: 2em;
     margin-left: 3.5em;
 }
- 
- 
+
+
  .history p {
     width: 65%;
     height: auto;
     align-items: flex-end;
+
+}
+
+
+
     overflow: hidden;
    
 }
@@ -315,3 +321,98 @@ footer {
     color: #FFF;
   }
 
+
+/* FORM PAGE*/
+#form-page {
+    overflow-x:visible;
+}
+
+.form {
+    padding: 30px;
+  }
+
+  .form-control {
+    padding: 40px;
+    position: relative;
+  }
+
+  .form-control label {
+    color: #777;
+    display: block;
+    margin-bottom: 3px;
+    margin-top: 15px;
+  }
+
+  .form-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .form-control input:focus {
+    outline: 0;
+    border-color: #777;
+  }
+
+  .form-control.success input {
+    border-color: var(--success-color);
+  }
+
+  .form-control.error input {
+    border-color: var(--error-color);
+  }
+
+  .form-control small {
+    color: var(--error-color);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+  }
+
+  .form-control.error small {
+    visibility: visible;
+  }
+
+  .form button {
+    cursor: pointer;
+    background-color: cadetblue;
+    border: 2px solid black;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .form-control select {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .form-control select:focus {
+    outline: 0;
+    border-color: #777;
+  }
+
+  .form-control.success select {
+    border-color: var(--success-color);
+  }
+
+  .form-control.error select {
+    border-color: var(--error-color);
+  }
+#form-footer {
+    display: block;
+    margin-top:450px
+}

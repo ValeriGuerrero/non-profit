@@ -49,11 +49,6 @@ function checkLength(input, min, max) {
   }
 }
 
-
-  return {"result": validated, "result_msg": validation_msg.trim()}
-
-}
-
 // Get fieldname
 function getFieldName(input) {
   return (input.id.charAt(0).toUpperCase() + input.id.slice(1)).replace("-", " ");
@@ -64,6 +59,7 @@ form.addEventListener('submit', function(event) {
   event.preventDefault();
 
 
+  if(checkRequired(form_fields)){
     username_check = checkLength(username, 3, 15)
     if(!username_check["result"]) {
       showError(username, username_check["result_msg"])
@@ -85,4 +81,7 @@ form.addEventListener('submit', function(event) {
     // console.log(checkEmail(email));
 
 }
-);
+
+
+});
+
