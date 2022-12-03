@@ -246,6 +246,7 @@ footer {
     display: inline-flex;
     align-items:center;
     margin: 32px -1.1px;
+    margin-right: 9.8px;
     box-shadow: 5px 6px 20px #0000006d;
 }
 
@@ -295,12 +296,12 @@ h2 {
 
 .sanctuarypic3 {
     height: 150px; /* 294px */
-    width: auto; /* 310px */
+    width: 200px; /* 310px */
     display: inline-flex;
     align-items:center;
     margin-top: -100em;
     margin-bottom: 4em;
-    margin-left: 3.5em;
+    margin-left: 3.45em;
     box-shadow: 5px 6px 20px #0000006d;
 }
 
@@ -311,7 +312,7 @@ h2 {
     align-items:center;
     margin-top: -100em;
     margin-bottom: 4em;
-    margin-left: 1.68em;
+    margin-left: .05em;
     box-shadow: 5px 6px 20px #0000006d;
 }
  
