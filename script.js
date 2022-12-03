@@ -49,7 +49,6 @@ function checkLength(input, min, max) {
   }
 }
 
-
 // Get fieldname
 function getFieldName(input) {
   return (input.id.charAt(0).toUpperCase() + input.id.slice(1)).replace("-", " ");
@@ -58,6 +57,7 @@ function getFieldName(input) {
 // Event listeners
 form.addEventListener('submit', function(event) {
   event.preventDefault();
+
 
   if(checkRequired(form_fields)){
     username_check = checkLength(username, 3, 15)
@@ -82,4 +82,6 @@ form.addEventListener('submit', function(event) {
 
 }
 
+
 });
+
