@@ -265,12 +265,13 @@ footer {
 #form-page {
     overflow-x:visible;
 }
+
 .form {
-    padding: 30px 40px;
+    padding: 30px;
   }
 
   .form-control {
-    padding-bottom: 40px;
+    padding: 40px;
     position: relative;
   }
 
@@ -350,3 +351,7 @@ footer {
   .form-control.error select {
     border-color: var(--error-color);
   }
+#form-footer {
+    display: block;
+    margin-top:450px
+}
