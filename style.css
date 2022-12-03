@@ -241,8 +241,8 @@ footer {
 }
 
 .sanctuary img {
-    height: 150px; /* 294px */
-    width: auto; /* 310px */
+    height: 150px; 
+    width: auto; 
     display: inline-flex;
     align-items:center;
     margin: 32px -1.1px;
@@ -283,20 +283,11 @@ h2 {
     margin-left: 3.5em;
 }
 
-/*
-.sanctuary2 {
-    display:inline-flex;
-    width: 90%;
-    height: 150px;
-    margin-top: 2em;
-    margin-left: 3.5em;
-    border: 5px dotted;
-}
-*/
+
 
 .sanctuarypic3 {
-    height: 150px; /* 294px */
-    width: 200px; /* 310px */
+    height: 150px; 
+    width: 200px; 
     display: inline-flex;
     align-items:center;
     margin-top: -100em;
@@ -306,8 +297,8 @@ h2 {
 }
 
 .sanctuarypic4 {
-    height: 150px; /* 294px */
-    width: auto; /* 310px */
+    height: 150px;
+    width: auto; 
     display: inline-flex;
     align-items:center;
     margin-top: -100em;
