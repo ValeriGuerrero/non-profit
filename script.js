@@ -58,7 +58,6 @@ function getFieldName(input) {
 form.addEventListener('submit', function(event) {
   event.preventDefault();
 
-
   if(checkRequired(form_fields)){
     username_check = checkLength(username, 3, 15)
     if(!username_check["result"]) {
@@ -68,7 +67,7 @@ form.addEventListener('submit', function(event) {
       showSuccess(username)
     }
 
-    // console.log(checkLength(username, 3, 15));
+
 
     email_check = checkEmail(email)
     if(!email_check["result"]) {
@@ -77,11 +76,5 @@ form.addEventListener('submit', function(event) {
     else {
       showSuccess(email)
     }
-
-    // console.log(checkEmail(email));
-
-}
-
-
-});
-
+  }
+  });
