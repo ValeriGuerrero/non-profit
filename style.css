@@ -293,15 +293,26 @@ h2 {
 }
 */
 
-.sanctuary2 {
+.sanctuarypic3 {
     height: 150px; /* 294px */
     width: auto; /* 310px */
     display: inline-flex;
     align-items:center;
     margin-top: -100em;
-    margin-left:-1.1px;
+    margin-bottom: 4em;
+    margin-left: 3.5em;
     box-shadow: 5px 6px 20px #0000006d;
-    
+}
+
+.sanctuarypic4 {
+    height: 150px; /* 294px */
+    width: auto; /* 310px */
+    display: inline-flex;
+    align-items:center;
+    margin-top: -100em;
+    margin-bottom: 4em;
+    margin-left: 1.68em;
+    box-shadow: 5px 6px 20px #0000006d;
 }
  
  
