@@ -308,13 +308,10 @@ footer {
 
 }
 
-/*Contact Page*/
-
 #banner img {
     width: 100%;
     height: 2%;
 }
-
 .centered {
     position: absolute;
     top: 50%;
@@ -329,13 +326,11 @@ footer {
    5px -5px 0 #000,
   -5px -5px 0 #000;
   }
-
 #spacearound h2 {
     width: 100%;
     margin: 10px -15px;
     text-align: center;
 }
-
 /*.contact h2{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -343,19 +338,15 @@ footer {
     font-weight: bolder;
     font-size: 40px;
 } */
-
 .contact a:hover {
     color: red;
-
 }
-
 .space {
     height: 185px;
     width: 100%;
     display: flex;
     background-color: whitesmoke;
   }
-
   .box {
     height: 200x;
     width: 300px;
@@ -366,41 +357,33 @@ footer {
     margin: 15px 0px;
     box-shadow: 2px 2px #777;
   }
-
   .box h2{
     text-decoration: underline;
   }
-
   .box p{
     text-align: center;
     margin: 5px 2px;
     font-weight: 50px;
   }
-
   .box a{
     color: black;
   }
-
   .box:hover {
     border-bottom: 5px solid maroon;
   }
-    
   #spacearound a{
     display:inline-block;
     padding: 5px 10px;
   }
-
   #spacearound {
     justify-content: space-around;
     margin: 0px 0px 30px 0px;
   }
-
   #spacearound h2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bolder;
     font-size: 27px;
   }
-
 
 /* FORM PAGE*/
 #form-page {
