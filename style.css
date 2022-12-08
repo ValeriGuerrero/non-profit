@@ -685,8 +685,8 @@ footer {
         margin-bottom: 100px;
         text-align: center;
     }
-
-    .top-container h1 {
+    
+     .top-container h1 {
         font-size: 7vmin;
         margin-top: 35px;
         margin-bottom: 25px;
@@ -696,17 +696,17 @@ footer {
         font-size: 5vmin;
         font-style: italic;
     }
-
-    /*pictures*/
+    
+      /*pictures*/
 
     .dogs {
         height: 300px;
         width: 300px;
         /* display: inline; */
-
-    }
-
-    #topics {
+        
+        }
+        
+         #topics {
         padding: 80px;
         text-align: center;
     }
@@ -721,8 +721,8 @@ footer {
         text-align: center;
 
     }
-
-    .container .box {
+    
+     .container .box {
         /*position: relative;*/
         width: calc(250px - 30px);
         height: calc(250px - 30px);
@@ -736,6 +736,7 @@ footer {
 
 
     }
+
 
     .container .box .content {
         /* position: absolute;*/
@@ -1044,3 +1045,4 @@ footer {
  display:inline-block;
 
 }
+
