@@ -760,77 +760,111 @@ footer {
 
     /*ABOUT PAGE*/
 
-.header-imgs {
-    margin-top: .2em;
-    margin-left: 10%;
-    justify-content: center;
-    align-items: stretch;
-    display: inline-flex;
-}
+    .header-imgs {
+      margin-top: .2em;
+      margin-left: 10%;
+      justify-content: center;
+      align-items: stretch;
+      display: inline-flex;
+  }
+  
+  
+  .abt_img {
+      height: 294px;
+      width: 320px;
+      display: inline-flex;
+      align-items:center;
+      margin-top: 32px;
+      margin-right: 2em;
+  }
+  
+  
+  .sanctuary img {
+      height: 150px; 
+      width: auto; 
+      display: inline-flex;
+      align-items:center;
+      margin: 32px -1.1px;
+      margin-right: 9.8px;
+      box-shadow: 5px 6px 20px #0000006d;
+  }
+  
+  #title {
+      text-align: center;
+      font-size: 3em;
+      margin-top: .5em;
+      letter-spacing: .1em;
+  }
+  
+  h2 {
+      text-align: center;
+      margin-top: 3em;
+      margin-bottom: -1em;
+      margin-left: 10em;
+      letter-spacing: .05em;
+  }
+  
+  .history {
+      display:inline-flex;
+      width: 90%;
+      height: 350px;
+      margin-top: 2em;
+      margin-left: 3.5em;
+  }
+  
+  .sanctuary {
+      display:inline-flex;
+      width: 90%;
+      height: 350px;
+      margin-top: 2em;
+      margin-bottom: 2.5em;
+      margin-left: 3.5em;
+  }
+  
+  .sanctuarypic3 {
+      height: 150px; 
+      width: 200px; 
+      display: inline-flex;
+      align-items:center;
+      margin-top: -100em;
+      margin-bottom: 4em;
+      margin-left: 3.45em;
+      box-shadow: 5px 6px 20px #0000006d;
+  }
+  
+  .sanctuarypic4 {
+      height: 150px;
+      width: auto; 
+      display: inline-flex;
+      align-items:center;
+      margin-top: -100em;
+      margin-bottom: 4em;
+      margin-left: .05em;
+      box-shadow: 5px 6px 20px #0000006d;
+  }
+  
+   .history p {
+      width: 65%;
+      height: auto;
+      align-items: flex-end;
+      overflow: hidden;
+      word-spacing: .025em;
+     
+  }
+  
+  .sanctuary p {
+      width: 65%;
+      height: auto;
+      align-items: flex-end;
+      display: inline-flex;
+      margin-left: 2em;
+      margin-bottom: 2em;
+      overflow: hidden;
+      justify-content: center;
+      word-spacing: .05em;
+  }
 
-
-.abt_img {
-    height: 294px;
-    width: 310px;
-    display: inline-flex;
-    align-items:center;
-    margin-top: 32px;
-    margin-right: 2em;
-}
-
-
-.sanctuary img {
-    height: 294px;
-    width: 310px;
-    display: inline-flex;
-    align-items:center;
-    margin: 32px -1.1px;
-    box-shadow: 5px 6px 20px #0000006d;
-}
-
-#title {
-    text-align: center;
-    font-size: 3em;
-    margin-top: .5em;
-    letter-spacing: .1em;
-}
-
-.history {
-    display:inline-flex;
-    width: 90%;
-    height: 350px;
-    margin-top: 2em;
-    margin-left: 3.5em;
-}
-
-.sanctuary {
-    display:inline-flex;
-    width: 90%;
-    height: 350px;
-    margin-top: 2em;
-    margin-left: 3.5em;
-}
-
-
- .history p {
-    width: 65%;
-    height: auto;
-    align-items: flex-end;
-    overflow: hidden;
-   
-}
-
-.sanctuary p {
-    width: 65%;
-    height: auto;
-    align-items: flex-end;
-    display: inline-flex;
-    margin-left: 2em;
-    margin-bottom: 2em;
-    overflow: hidden;
-    justify-content: center;
-
-}
+  /***END OF ABOUT PAGE***/
 
 #banner img {
     width: 100%;
