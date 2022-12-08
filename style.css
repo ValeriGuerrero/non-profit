@@ -38,11 +38,6 @@ HOME PAGE
     text-align: center;
 }
 
-.navbar {
-    /*position: relative;*/
-
-}
-
 li {
     display: inline-block;
     padding: 20px 20px;
@@ -594,7 +589,7 @@ footer {
         border-radius: 10px;
         background-color: white;
         /*display: block;*/
-        align-items center;
+        align-items: center;
         margin: 10px 0px;
         margin-left: 45px;
 
@@ -629,7 +624,7 @@ footer {
         padding: 0px;
     }
 }
-}
+
 
 /* Desktops Large Screens*/
 
