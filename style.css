@@ -763,10 +763,11 @@ footer {
 
     .header-imgs {
       margin-top: .2em;
-      margin-left: 10%;
-      justify-content: center;
-      align-items: stretch;
+      margin-left: 10.5%;
+      justify-content: space-between;
+      align-items: center;
       display: inline-flex;
+      margin-left: 1em;
   }
   
   
@@ -775,8 +776,10 @@ footer {
       width: 320px;
       display: inline-flex;
       align-items:center;
+      justify-content: space-between;
       margin-top: 32px;
-      margin-right: 2em;
+      margin-left: -3.5em;
+      margin-right: 4em;
   }
   
   
@@ -810,7 +813,7 @@ footer {
       width: 90%;
       height: 350px;
       margin-top: 2em;
-      margin-left: 3.5em;
+      margin-left: 8em;
   }
   
   .sanctuary {
