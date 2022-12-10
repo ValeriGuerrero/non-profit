@@ -63,6 +63,7 @@ a {
 .top-container h2 {
     font-size: 3vmin;
     font-style: italic;
+    text-align: center;
 }
 
 /*pictures*/
@@ -219,6 +220,7 @@ footer {
     .top-container h2 {
         font-size: 4vmin;
         font-style: italic;
+        text-align: center;
     }
 
 
@@ -303,6 +305,7 @@ footer {
     .top-container h2 {
         font-size: 5vmin;
         font-style: italic;
+        text-align: center;
     }
 
     /*pictures on top*/
@@ -424,6 +427,7 @@ footer {
     .top-container h2 {
         font-size: 5vmin;
         font-style: italic;
+        text-align: center;
     }
 
     /*pictures on top*/
@@ -546,6 +550,7 @@ footer {
     .top-container h2 {
         font-size: 5vmin;
         font-style: italic;
+        text-align: center;
     }
 
     /*pictures on top*/
