@@ -78,7 +78,3 @@ form.addEventListener('submit', function(event) {
     }
   }
   });
-
-  if(checkRequired(form_fields)){
-    
-  }
