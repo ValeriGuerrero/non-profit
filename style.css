@@ -694,7 +694,7 @@ footer {
         margin-bottom: 100px;
         text-align: center;
     }
-    
+
      .top-container h1 {
         font-size: 7vmin;
         margin-top: 35px;
@@ -705,16 +705,16 @@ footer {
         font-size: 5vmin;
         font-style: italic;
     }
-    
+
       /*pictures*/
 
     .dogs {
         height: 300px;
         width: 300px;
         /* display: inline; */
-        
+
         }
-        
+
          #topics {
         padding: 80px;
         text-align: center;
@@ -730,7 +730,7 @@ footer {
         text-align: center;
 
     }
-    
+
      .container .box {
         /*position: relative;*/
         width: calc(250px - 30px);
@@ -778,8 +778,8 @@ footer {
       display: inline-flex;
       margin-left: 1em;
   }
-  
-  
+
+
   .abt_img {
       height: 294px;
       width: 320px;
@@ -790,25 +790,25 @@ footer {
       margin-left: -3.5em;
       margin-right: 4em;
   }
-  
-  
+
+
   .sanctuary img {
-      height: 150px; 
-      width: auto; 
+      height: 150px;
+      width: auto;
       display: inline-flex;
       align-items:center;
       margin: 32px -1.1px;
       margin-right: 9.8px;
       box-shadow: 5px 6px 20px #0000006d;
   }
-  
+
   #title {
       text-align: center;
       font-size: 3em;
       margin-top: .5em;
       letter-spacing: .1em;
   }
-  
+
   h2 {
       text-align: center;
       margin-top: 3em;
@@ -816,7 +816,7 @@ footer {
       margin-left: 10em;
       letter-spacing: .05em;
   }
-  
+
   .history {
       display:inline-flex;
       width: 90%;
@@ -824,7 +824,7 @@ footer {
       margin-top: 2em;
       margin-left: 8em;
   }
-  
+
   .sanctuary {
       display:inline-flex;
       width: 90%;
@@ -833,10 +833,10 @@ footer {
       margin-bottom: 2.5em;
       margin-left: 3.5em;
   }
-  
+
   .sanctuarypic3 {
-      height: 150px; 
-      width: 200px; 
+      height: 150px;
+      width: 200px;
       display: inline-flex;
       align-items:center;
       margin-top: -100em;
@@ -844,10 +844,10 @@ footer {
       margin-left: 3.45em;
       box-shadow: 5px 6px 20px #0000006d;
   }
-  
+
   .sanctuarypic4 {
       height: 150px;
-      width: auto; 
+      width: auto;
       display: inline-flex;
       align-items:center;
       margin-top: -100em;
@@ -855,16 +855,16 @@ footer {
       margin-left: .05em;
       box-shadow: 5px 6px 20px #0000006d;
   }
-  
+
    .history p {
       width: 65%;
       height: auto;
       align-items: flex-end;
       overflow: hidden;
       word-spacing: .025em;
-     
+
   }
-  
+
   .sanctuary p {
       width: 65%;
       height: auto;
@@ -1055,7 +1055,8 @@ footer {
     margin-top:450px
 }
 .form-images {
- display:inline-block;
+ display: flex;
+ justify-content: center;
+ ;
 
 }
-
