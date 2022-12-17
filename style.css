@@ -959,10 +959,22 @@ footer {
 /* FORM PAGE*/
 #form-page {
     overflow-x:visible;
-}
-.form {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    position: absolute;
+    background-color: white;
+}
+
+.form_intro {
+
+}
+
+.form_container {
+    width: 700px
+}
+
+/*
+.form {
     padding: 30px;
     border: cadetblue 10px;
     border-style: solid;
@@ -1055,8 +1067,6 @@ footer {
     margin-top:450px
 }
 .form-images {
- display: flex;
- justify-content: center;
- ;
-
+ display: inline-flex;
 }
+*/
